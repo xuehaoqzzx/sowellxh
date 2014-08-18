@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top{height:22px; background-color:#3f3f3f; width:100%; overflow:hidden;}
+.topconent{ width:1000px; margin:0px auto; color:#fff; line-height:24px;}
+.menu{width:1000px; margin:0px auto; height:110px;}
+.menu .logo{
+	width:308px;
+	height:110px;
+	background-image: url(/public/images/logo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 0px 0px;
+}
+.nav1{width:523px;text-align:center;}
+.nav1 ul li{width:100px; height:110px; line-height:20px; font-size:16px; line-height:9em; float:left;}
+.nav1 .selected{ background:url(/public/images/nav_bg.gif) no-repeat;}
+.nav1 .selected a{ color:#FFFFFF;}
+.ad{ height:585px; width:1425px; margin:0px auto;}
+
+.content{ background:url('/public/images/bg.jpg') repeat; padding-bottom:20px;}
+.info1{width:1000px; height:428px; background:url('/public/images/info1.jpg') no-repeat; margin:0px auto;}
+.info2{width:1000px; height:180px; background:url('/public/images/info2.jpg') no-repeat; margin:0px auto;}
+.info2 a{ width:180px; height:100px; display:inline-table; margin-top:80px;}
+.info2 .ta1{ margin-left:80px;}
+.info2 .ta2{ margin-left:160px;}
+.info2 .ta3{ margin-left:140px;}
+.tab{width:1000px; height:317px; overflow:hidden; margin:0px auto;}
+#tab1{background:url('/public/images/tab1.jpg') no-repeat;height:317px;}
+#tab2{background:url('/public/images/tab2.jpg') no-repeat;height:317px;}
+#tab3{background:url('/public/images/tab3.jpg') no-repeat;height:317px;}
+
+.footer{ height:164px;width:100%; background:url('/public/images/footer_bg.jpg') repeat-x;}
+
+.ft{ width:1000px; height:164px; margin:0 auto;}
+.ft .ftz{ width:500px; text-align:left; font-size:14px; line-height:28px;}
+.ft .ftz span{color:#C30D23; font-size:24px;}
+.ft .fzy{ width:388px; background:url('/public/images/footer_logo.jpg') no-repeat; height:164px;}
+
+.about .us,.scheme{width:1000px; margin:0 auto;}
+.about .us h1{width:100%; height:89px; background:url("/public/images/about-1.jpg") no-repeat;}
+.about .us p{ padding:10px 56px; text-indent:2em; line-height:26px; font-size:16px;}
+.scheme h1{width:100%; height:73px; background:url("/public/images/about-2.jpg") no-repeat;}
+.scheme p{  padding:10px 56px; line-height:26px; font-size:16px;}
+.scheme .red{ color:#c30d23; font-size:20px;}
+.about .us .p_hr{width:880px;border-bottom:1px dotted #a29e9d; margin:0 auto; height:20px;}
+
+.case,.join,.contact{width:1000px; margin:0 auto;}
+.case h1{ width:100%; height:93px; background:url('/public/images/case00.jpg') no-repeat;}
+.case .case_list{ margin:15px 55px; }
+.case .case_list dl{font-size:14px; margin-bottom:15px;}
+.case .case_list dl a{background-color:#fff;width:260px;border:2px solid #d9d9d9; display:block;padding:10px;}
+.case .case_list dl a:hover{ border-color:#C30D23;}
+.case .case_list dl dd{ height:25px;}
+.case .case_list dl .more{ background:url('/public/images/case02.jpg') no-repeat; background-position:right; height:32px;}
+.list_l,.list_c,.list_r{ width:290px;}
+.list_c{ margin-left:12px;}
+
+.join h1{ width:100%; height:109px; background:url('/public/images/join01.jpg') no-repeat;}
+.join .join_list{ padding:10px 40px 10px 55px;}
+.join .join_list dl dt{ font-size:18px; color:#C30D23; font-weight:bold; height:30px;}
+.join .join_list dl dd{ line-height:36px; font-size:16px; margin-bottom:30px;}
+.join .join_list .hr,.contact_list .hr{border-bottom:1px dotted #333333; height:0px; background:none;}
+
+.contact h1{ width:100%; height:108px; background:url('/public/images/contact.jpg') no-repeat;}
+.contact .contact_list{padding:10px 40px 10px 55px;}
+.contact .contact_list p{ font-size:24px; margin:10px 0;}
+
+.weixin{ position:fixed; bottom:20px; right:1%;}
+.top_a{ position:fixed;bottom:20px;left:1%;}
+.top_a a{border-radius:3px;}
